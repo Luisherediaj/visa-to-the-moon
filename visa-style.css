@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=visa-style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #238f86;
+  color: white;
+}
+
+body main {
+  width: inherit;
+  height: inherit;
+}
+
+body main .visa {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+  -ms-grid-rows: 35vh, 20vh, 30vh, 15vh;
+      grid-template-rows: 35vh, 20vh, 30vh, 15vh;
+  padding-top: 1vh;
+}
+/*# sourceMappingURL=visa-style.css.map */

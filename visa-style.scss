@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
+
+$base-color: rgb(35, 143, 134);
+$text-color: white;
+$primary-font: 'Montserrat', sans-serif;
+$second-font: 'Merriweather', serif;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: $base-color;
+    color: $text-color;
+
+    main{
+        width: inherit;
+        height: inherit;
+
+        .visa{
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-rows: (35vh, 20vh, 30vh, 15vh);
+            padding-top: 1vh;
+        }
+    }
+}
